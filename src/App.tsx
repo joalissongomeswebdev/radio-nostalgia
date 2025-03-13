@@ -1,8 +1,10 @@
+import { ThemeComponent } from "./themes/ThemeComponent";
+
 function App() {
   return (
-    <div>
+    <ThemeComponent>
       <h3>Hi, radio nostalgia</h3>
-    </div>
+    </ThemeComponent>
   );
 }
 
